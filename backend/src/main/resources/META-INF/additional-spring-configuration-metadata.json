@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "mycash.clientId",
+    "type": "java.lang.String",
+    "description": "A description for 'mycash.clientId'"
+  },
+  {
+    "name": "mycash.clientSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'mycash.clientSecret'"
+  },
+  {
+    "name": "mycash.clientSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'mycash.clientSecret'"
+  },
+  {
+    "name": "mycash.clientSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'mycash.clientSecret'"
+  },
+  {
+    "name": "mycash.clientSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'mycash.clientSecret'"
+  },
+  {
+    "name": "mycash.clientSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'mycash.clientSecret'"
+  }
+]}
