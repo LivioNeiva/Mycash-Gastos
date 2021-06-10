@@ -22,12 +22,12 @@ Projeto desenvolvido durante o Bootcamp Desenvolvimento Full Stack Java Spring B
 
 5)	Testar com Postman.
 
-
-    a)	GET: http://localhost:8080/mycash/api/lancamento 
-    b)	POST: http://localhost:8080/mycash/api/lancamento 
-    c)	PUT: http://localhost:8080/mycash/api/lancamento/1 
-    d)	DELETE: http://localhost:8080/mycash/api/lancamento/1
-
+    ˋˋˋ
+    a) GET: http://localhost:8080/mycash/api/lancamento 
+    b) POST: http://localhost:8080/mycash/api/lancamento 
+    c) PUT: http://localhost:8080/mycash/api/lancamento/1     
+    d) DELETE: http://localhost:8080/mycash/api/lancamento/1
+    ˋˋˋ
 
 6)	Anotamos a classe Lancamento para que se torne uma Entidade JPA.
 
@@ -62,7 +62,7 @@ Projeto desenvolvido durante o Bootcamp Desenvolvimento Full Stack Java Spring B
 
 ### Fizemos a segurança da aplicação com Spring Security
 
-Com Spring Security trabalhamos com recursos avançados e de simples configuração para lhe ajudar com a segurança da aplicação.
+15) Com Spring Security trabalhamos com recursos avançados e de simples configuração para lhe ajudar com a segurança da aplicação.
 
     a) Configuramos autenticação em memória
     b) Criamos permissões (autorização) em nossas aplicação
@@ -74,6 +74,22 @@ Com Spring Security trabalhamos com recursos avançados e de simples configuraç
     a.	Criar arquivo system.properties na raíz do projeto com:
 
         java.runtime.version=11
+
+16) Configuramos o banco de dados Postgres e fizemos a Validação no Postgres local
+
+
+    * Criamos três perfis de projeto: test, dev, prod
+    * Geramos script SQL no perfil dev
+    * Testamos projeto no banco Postgres local
+
+17) Implantação no Heroku
+
+    a) Criar app no Heroku
+    b) Provisionar banco Postgres
+    c) Definir variável APP_PROFILE=prod
+    d) Conectar ao banco via pgAdmin
+    e) Criar seed do banco
+
 
 ```bash
 $ git clone <https://github.com/LivioNeiva/Mycash-Gastos.git>

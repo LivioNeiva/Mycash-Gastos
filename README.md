@@ -37,6 +37,8 @@ $ git clone <https://github.com/LivioNeiva/Mycash-Gastos.git>
 
 [Spring](https://spring.io/)
 
+[postgresql](https://wiki.postgresql.org/wiki/Main_Page/pt)
+
 ### Autor
 ---
 

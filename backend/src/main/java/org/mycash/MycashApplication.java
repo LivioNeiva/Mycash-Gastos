@@ -27,8 +27,8 @@ public class MycashApplication {
 		UsuarioService service = context.getBean(UsuarioService.class);
 
 		//todas as vezes q a aplicação ssubir, vamos criar um usuario
-		service.registraUsuarioAdmin("admin@mycash.com", "admin");
-		service.save("user@mycash.com", "user");
+		//service.registraUsuarioAdmin("admin@mycash.com", "admin");
+		//service.save("user@mycash.com", "user");
 		
 	}
 	
@@ -50,3 +50,4 @@ public class MycashApplication {
 //01:33:33 usuarioController
 //01:55 DTO
 //02:08:33 ziroku
+//02:11:39 ziroku
