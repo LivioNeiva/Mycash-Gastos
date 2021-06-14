@@ -16,6 +16,7 @@ public class MycashApplication {
 
 	public static void main(String[] args) {
 
+		//SpringApplication.run(MycashApplication.class, args);
 		/*
 		esse contexto vai ter as informações de todos os beans e de todos os objs q foram
 		carregados durante a aplicação
@@ -27,8 +28,8 @@ public class MycashApplication {
 		UsuarioService service = context.getBean(UsuarioService.class);
 
 		//todas as vezes q a aplicação ssubir, vamos criar um usuario
-		//service.registraUsuarioAdmin("admin@mycash.com", "admin");
-		//service.save("user@mycash.com", "user");
+		service.registraUsuarioAdmin("admin@mycash.com", "admin");
+		service.save("user@mycash.com", "user");
 		
 	}
 	

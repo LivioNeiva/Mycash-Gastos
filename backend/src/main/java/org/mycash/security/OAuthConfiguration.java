@@ -48,7 +48,7 @@ public class OAuthConfiguration extends AuthorizationServerConfigurerAdapter {
 
         //vamos informar quais sao os clientes estára usando nossa aplicação
         //vamos informar um id e uma chave secreta para cada uma das aplicação
-        clients.inMemory() //faremosa configuração em memoria, mais pode ser tb em um banco de dados
+        clients.inMemory() //faremos a configuração em memoria, mais pode ser tb em um banco de dados
                 .withClient(clientId) // informamos o id do cliente
                 .secret(passWordEncoder.encode(clientSecret)) //vamos informar a senha do cliente
                 .accessTokenValiditySeconds(43200) //12h config relacionado ao token, a quant de segundos token vai está valido
